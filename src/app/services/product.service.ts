@@ -62,7 +62,5 @@ export class ProductService {
       return of(product);
 
     }
-    public getProduct(id:string) : Observable<Product>{
-      let product = this.addNewProduct.products.find(p=>p.id==id);
-    }
+    
 }
